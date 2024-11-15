@@ -1,0 +1,212 @@
+ /* General Styles */
+body {
+font-family: 'Arial', sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f0f8ff;
+color: #333;
+}
+
+.container {
+width: 80%;
+margin: auto;
+}
+
+/* Header Styling */
+.header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+background-color: #004080;
+color: #fff;
+border-bottom: 4px solid #002060;
+border-radius: 8px 8px 0 0;
+}
+
+.header .image img {
+width: 100px;
+height: auto;
+border-radius: 50%;
+border: 3px solid #fff;
+}
+
+.header h2 {
+margin: 0;
+font-size: 20px;
+font-weight: bold;
+}
+
+.nav_menu ul {
+ list-style-type: none;
+display: flex;
+gap: 10px;
+}
+
+.nav_menu ul li a {
+color: #fff;
+padding: 8px 15px;
+text-decoration: none;
+font-weight: bold;
+white-space:nowrap;
+background-color: #66cccc;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
+
+.nav_menu ul li a:hover {
+background-color: #004080;
+}
+
+/* Section Styles */
+.section {
+margin: 20px 0;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+font-size: 24px;
+color: #004080;
+border-bottom: 3px solid #004080;
+padding-bottom: 5px;
+margin-top: 0;
+}
+
+/* Horizontal School Box Styling */
+.school-container {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: space-between;
+}
+.school-box {
+background-color: #e6f2ff;
+padding: 15px;
+border: 2px solid #0066cc;
+border-radius: 5px;
+-size: 16px;
+-weight: bold;
+width: 30%;
+box-sizing: border-box;
+text-align: center;
+}
+
+.school-box a {
+    color: #004080;
+text-decoration: none;
+}
+.school-box a:hover {
+text-decoration: underline;
+}
+
+/* Hobbies Styling */
+.hobbies-container {
+background-color: #ffe6f2;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies-list {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: space-between;
+}
+
+.hobby-box {
+background-color: #fff0f5;
+padding: 15px;
+border: 2px solid #ff66b2;
+border-radius: 5px;
+font-size: 16px;
+font-weight: bold;
+width: 30%;
+box-sizing: border-box;
+text-align: center;
+}
+
+ .hobby-box a {
+  color: #ff3385;
+text-decoration: none;
+}
+
+.hobby-box a:hover {
+text-decoration: underline;
+}
+
+ /* Career Prospects Styling */
+.career-list {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: space-between;
+ }
+
+.career-box {
+background-color: #e6ffe6;
+padding: 15px;
+border: 2px solid #33cc33;
+border-radius: 5px;
+font-size: 16px;
+font-weight: bold;
+width: 30%;
+box-sizing: border-box;
+text-align: center;
+color: #339933;
+  }
+ /* Footer Styling */
+  footer {
+text-align: center;
+padding: 15px;
+background-color: #004080;
+color: #fff;
+border-top: 3px solid #002060;
+margin-top: 20px;
+border-radius: 0 0 8px 8px;
+}
+footer marquee p {
+ margin: 0;
+font-weight: bold;
+}
+
+/* Career Prospects Section Styling */
+.career-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.career-box {
+    background-color: #f2ffec;
+    padding: 15px;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #388e3c;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.career-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 128, 0, 0.2);
+}
+
+.career-box p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #00695c;
+}
